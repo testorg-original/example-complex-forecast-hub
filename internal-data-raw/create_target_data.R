@@ -166,4 +166,4 @@ target_data_distinct <- target_data_distinct |>
   distinct()
 
 write_csv(target_data_distinct,
-          file = "target-data/target-values.csv")
+          file = "target-data/target-observations.csv")
