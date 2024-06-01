@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-deps-cache-on-main:
-    if: github.repository_owner == 'Infectious-Disease-Modeling-Hubs'
+    if: github.repository_owner == 'testorg-original'
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -28,4 +28,4 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: Infectious-Disease-Modeling-Hubs/hubValidations, any::sessioninfo
+          packages: testorg-original/hubValidations, any::sessioninfo
