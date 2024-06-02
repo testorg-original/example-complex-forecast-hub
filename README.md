@@ -8,7 +8,7 @@
 This repository is designed as an example modeling Hub that follows the
 infrastructure guidelines laid out by the [Consortium of Infectious
 Disease Modeling
-Hubs](https://github.com/testorg-original/).
+Hubs](https://github.com/testorg-rename/).
 
 The example model outputs that are provided here are adapted from
 forecasts submitted to the FluSight Forecast Hub for the 2022/23 season.

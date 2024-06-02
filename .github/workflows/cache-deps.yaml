@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-deps-cache-on-main:
-    if: github.repository_owner == 'testorg-original'
+    if: github.repository_owner == 'testorg-rename'
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -28,4 +28,4 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: testorg-original/hubValidations, any::sessioninfo
+          packages: testorg-rename/hubValidations, any::sessioninfo

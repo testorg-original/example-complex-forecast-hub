@@ -17,13 +17,13 @@ knitr::opts_chunk$set(
 
 **This repository is under construction.**
 
-This repository is designed as an example modeling Hub that follows the infrastructure guidelines laid out by the [Consortium of Infectious Disease Modeling Hubs](https://github.com/testorg-original/).
+This repository is designed as an example modeling Hub that follows the infrastructure guidelines laid out by the [Consortium of Infectious Disease Modeling Hubs](https://github.com/testorg-rename/).
 
 The example model outputs that are provided here are adapted from forecasts submitted to the FluSight Forecast Hub for the 2022/23 season. The original forecasts were provided in quantile format, but they have been modified to provide examples of additional model output types and targets. They should be viewed only as illustrations of the data formats, not as realistic examples of forecasts. **Note that the folder `internal-data-raw` is not a part of the standard hub setup; it contains the original source data and scripts used to create the example model output data and target data.**
 
 ## Working with the data in R
 
-Install the [hubUtils package](https://testorg-original.github.io/hubUtils/) to work with the data in R.
+Install the [hubUtils package](https://testorg-rename.github.io/hubUtils/) to work with the data in R.
 
 To connect to a local copy of the data, clone this repository and use code like the following:
 
